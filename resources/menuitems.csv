@@ -1,0 +1,32 @@
+id(int),Item Name(string), Brief Description(string), Item Cost(double), Item Category (string)
+1,Salami, This is a salami,2,food
+2,Margherita, This is a Margherita,5,food
+3,Hamburger,This is a Hamburger,5,food
+4,CheeseBurger,This is a  CheeseBurger,6,food
+5,Soda,This is a Soda,4,bevarage
+6,Double Burger,This is a Double Burger,6,food
+7,Onion Rings,This is a Onion Rings,3,food
+8,French Fries,This is a French Fries,5,food
+9,Tacos,This is a Tacos,8,food
+10,Coffee,This is a Coffee,10,bevarage
+11,Nachos,This is a Nachos,6,food
+12,Burritos,This is a Burritos,4,food
+13,Pitta,This is a Pitta,5,food
+14,Hot Dog,This is a Hot Dog,9,food
+15,Cheese Cake,This is a Cheese Cake,7,food
+16,Caramel,This is a Caramel,2,other
+17,Coffee Jelly,This is a Coffee Jelly,5,other
+18,Cookies & Cream,This is a Cookies & Cream,5,other
+19,Hazelnut Mocha,This is a Hazelnut Mocha,6,bevarage
+20,Mint Chocolate Chip,This is a Mint Chocolate Chip,4,other
+21,Strawberry Cream,This is a Strawberry Cream,6,other
+22,Vanila,This is a Vanila,3,other
+23,Earl Grey,This is a Earl Grey,5,bevarage
+24,Green Tea,This is a Green Tea,8,bevarage
+25,Jasmine Tea,This is a Jasmine Tea,10,bevarage
+26,Milk Tea,This is a Milk Tea,6,bevarage
+27,Ginger Tea,This is a Ginger Tea,4,bevarage
+28,Honey Lemon,This is a Honey Lemon,5,bevarage
+29,Espresso,This is a Espresso,9,bevarage
+30,Latte,This is a Latte,7,bevarage
+31,Macchiato,This is a Macchiato,8,other
