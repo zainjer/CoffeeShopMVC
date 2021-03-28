@@ -16,6 +16,7 @@ public class MainMenuController {
             System.out.println("* 2. View Current Orders");
             System.out.println("* 3. View Current Customers");
             System.out.println("* 4. Make an Order");
+            System.out.println("* 5. View All Servers");
             System.out.println("* 0. Exit");
             System.out.println("*******************************************************\n");
             System.out.println("Write a number to continue!\n$ ");
@@ -79,6 +80,13 @@ public class MainMenuController {
                 continueMessage();
                 in.nextLine();
             }
+            case 5-> {
+                Log.add("Choose 5 in MainMenu");
+                ServerController.printStatus();
+                continueMessage();
+                in.nextLine();
+            }
+
             default -> {
                 System.out.println(" -- Invalid Option Selected!\t Please try again...");
                 continueMessage();

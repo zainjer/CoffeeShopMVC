@@ -1,9 +1,6 @@
 package com.company;
 
-import com.company.controllers.CustomerController;
-import com.company.controllers.MainMenuController;
-import com.company.controllers.MenuItemController;
-import com.company.controllers.OrdersController;
+import com.company.controllers.*;
 import com.company.shared.DataReader;
 import com.company.shared.ObjectMapper;
 import com.company.util.FilePaths;
@@ -24,6 +21,12 @@ public class Main {
         // Populating Model Objects to Controllers
         OrdersController.setOrderList(ordersAndCustomers.getValue0());
         CustomerController.setCustomerList(ordersAndCustomers.getValue1());
+
+        //Generate Servers
+        ServerController.generateServers(new String[]{"Charlotte","Jacob","Megan"});
+
+        //Starting Serving
+        ServerController.startServing();
 
         //Initiation
         MainMenuController.initiateMainMenu();
