@@ -2,6 +2,7 @@ package com.company.models;
 
 import java.util.Date;
 
+
 public class Order {
 
     private static int orderCounter;
@@ -22,6 +23,7 @@ public class Order {
         this.menuItem = menuItem;
         this.status = false;
     }
+
 
     public Order(Customer customer, MenuItem menuItem, Date timestamp) {
         id = orderCounter++;
@@ -51,6 +53,7 @@ public class Order {
     //Setters
     public void setStatus(boolean status) { this.status = status; }
 
+
     @Override
     public String toString() {
         return "Order{" +
@@ -62,3 +65,4 @@ public class Order {
                 '}';
     }
 }
+

@@ -54,6 +54,7 @@ public class MainMenuController {
                 Log.add("Chose 0 in MainMenu");
                 System.out.println("\n********** Thank you for using Digital Coffee Shop! **********\n");
                 //Todo -- Add Summary part here!
+                new Exception().printStackTrace();
                 System.exit(0);
             }
             case 1 -> {
