@@ -1,79 +1,114 @@
 -- Start of Log --
 
-28-Mar-2021 14:58:35 - Invoked: ReadFileAsLines in com.company.shared.DataReader
-28-Mar-2021 14:58:35 - Invoked: ReadFileAsLines in com.company.shared.DataReader
-28-Mar-2021 14:58:35 - File path:D:\_E_Backup\_COMMERCIAL\Coffee Shop Simulation Java\resources\menuitems.csv
-28-Mar-2021 14:58:35 - Read line:2,Margherita, This is a Margherita,5,food
-28-Mar-2021 14:58:35 - Read line:3,Hamburger,This is a Hamburger,5,food
-28-Mar-2021 14:58:35 - Read line:3,Hamburger,This is a Hamburger,5,food
-28-Mar-2021 14:58:35 - Read line:4,CheeseBurger,This is a  CheeseBurger,6,food
-28-Mar-2021 14:58:35 - Read line:5,Soda,This is a Soda,4,bevarage
-28-Mar-2021 14:58:35 - Read line:7,Onion Rings,This is a Onion Rings,3,food
-28-Mar-2021 14:58:35 - Read line:7,Onion Rings,This is a Onion Rings,3,food
-28-Mar-2021 14:58:35 - Read line:8,French Fries,This is a French Fries,5,food
-28-Mar-2021 14:58:35 - Read line:9,Tacos,This is a Tacos,8,food
-28-Mar-2021 14:58:35 - Read line:10,Coffee,This is a Coffee,10,bevarage
-28-Mar-2021 14:58:35 - Read line:11,Nachos,This is a Nachos,6,food
-28-Mar-2021 14:58:35 - Read line:12,Burritos,This is a Burritos,4,food
-28-Mar-2021 14:58:35 - Read line:13,Pitta,This is a Pitta,5,food
-28-Mar-2021 14:58:35 - Read line:14,Hot Dog,This is a Hot Dog,9,food
-28-Mar-2021 14:58:35 - Read line:15,Cheese Cake,This is a Cheese Cake,7,food
-28-Mar-2021 14:58:35 - Read line:16,Caramel,This is a Caramel,2,other
-28-Mar-2021 14:58:35 - Read line:17,Coffee Jelly,This is a Coffee Jelly,5,other
-28-Mar-2021 14:58:35 - Read line:18,Cookies & Cream,This is a Cookies & Cream,5,other
-28-Mar-2021 14:58:35 - Read line:19,Hazelnut Mocha,This is a Hazelnut Mocha,6,bevarage
-28-Mar-2021 14:58:35 - Read line:20,Mint Chocolate Chip,This is a Mint Chocolate Chip,4,other
-28-Mar-2021 14:58:35 - Read line:21,Strawberry Cream,This is a Strawberry Cream,6,other
-28-Mar-2021 14:58:35 - Read line:22,Vanila,This is a Vanila,3,other
-28-Mar-2021 14:58:35 - Read line:23,Earl Grey,This is a Earl Grey,5,bevarage
-28-Mar-2021 14:58:35 - Read line:24,Green Tea,This is a Green Tea,8,bevarage
-28-Mar-2021 14:58:35 - Read line:25,Jasmine Tea,This is a Jasmine Tea,10,bevarage
-28-Mar-2021 14:58:35 - Read line:26,Milk Tea,This is a Milk Tea,6,bevarage
-28-Mar-2021 14:58:35 - Read line:27,Ginger Tea,This is a Ginger Tea,4,bevarage
-28-Mar-2021 14:58:35 - Read line:28,Honey Lemon,This is a Honey Lemon,5,bevarage
-28-Mar-2021 14:58:35 - Read line:29,Espresso,This is a Espresso,9,bevarage
-28-Mar-2021 14:58:35 - Read line:30,Latte,This is a Latte,7,bevarage
-28-Mar-2021 14:58:35 - Read line:31,Macchiato,This is a Macchiato,8,other
-28-Mar-2021 14:58:35 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
-28-Mar-2021 14:58:35 - Invoked: readOrders in com.company.shared.DataReader
-28-Mar-2021 14:58:35 - File path:D:\_E_Backup\_COMMERCIAL\Coffee Shop Simulation Java\resources\orders.csv
-28-Mar-2021 14:58:35 - File path:D:\_E_Backup\_COMMERCIAL\Coffee Shop Simulation Java\resources\orders.csv
-28-Mar-2021 14:58:35 - Read line:27-Mar-2021 23:37:01,1,FOOD3,FALSE
-28-Mar-2021 14:58:35 - Read line:27-Mar-2021 23:39:03,3,FOOD12,FALSE
-28-Mar-2021 14:58:35 - Read line:27-Mar-2021 23:40:04,4,FOOD2,FALSE
-28-Mar-2021 14:58:35 - Read line:27-Mar-2021 23:40:05,4,BEVARAGE19,FALSE
-28-Mar-2021 14:58:35 - Read line:27-Mar-2021 23:40:06,4,BEVARAGE24,FALSE
-28-Mar-2021 14:58:35 - Read line:27-Mar-2021 23:42:07,5,OTHER21,FALSE
-28-Mar-2021 14:58:35 - Read line:27-Mar-2021 23:42:08,5,FOOD14,FALSE
-28-Mar-2021 14:58:35 - Read line:27-Mar-2021 23:43:09,6,FOOD1,FALSE
-28-Mar-2021 14:58:35 - Read line:27-Mar-2021 23:44:10,7,OTHER18,FALSE
-28-Mar-2021 14:58:35 - Read line:27-Mar-2021 23:45:11,8,BEVARAGE29,FALSE
-28-Mar-2021 14:58:35 - Read line:27-Mar-2021 23:46:12,9,BEVARAGE30,FALSE
-28-Mar-2021 14:58:35 - Read line:27-Mar-2021 23:46:12,9,BEVARAGE30,FALSE
-28-Mar-2021 14:58:35 - Read line:27-Mar-2021 23:46:14,9,FOOD13,FALSE
-28-Mar-2021 14:58:35 - Read line:27-Mar-2021 23:46:15,9,OTHER17,FALSE
-28-Mar-2021 14:58:35 - Read line:27-Mar-2021 23:46:16,9,FOOD15,FALSE
-28-Mar-2021 14:58:35 - Read line:27-Mar-2021 23:46:16,9,FOOD15,FALSE
-28-Mar-2021 14:58:35 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
-28-Mar-2021 14:58:35 - Added new Customer:1
-28-Mar-2021 14:58:35 - Added new Customer:2
-28-Mar-2021 14:58:35 - Added new Customer:3
-28-Mar-2021 14:58:35 - Added new Customer:4
-28-Mar-2021 14:58:35 - Added new Customer:5
-28-Mar-2021 14:58:35 - Added new Customer:6
-28-Mar-2021 14:58:35 - Added new Customer:7
-28-Mar-2021 14:58:35 - Added new Customer:8
-28-Mar-2021 14:58:35 - Added new Customer:9
-28-Mar-2021 14:58:35 - Generating Servers
-28-Mar-2021 14:58:35 - Started Servering
-28-Mar-2021 14:58:35 - Charlotte Started Serving
-28-Mar-2021 14:58:35 - Jacob Started Serving
-28-Mar-2021 14:58:35 - Megan Started Serving
-28-Mar-2021 14:58:35 - Printed Main Menu
-28-Mar-2021 14:58:35 - Charlotte Served Customer{customerId=1} their order of 3:	FOOD3	Hamburger	 Price: £5.0	 Description='This is a Hamburger'
-28-Mar-2021 14:58:35 - Charlotte Served Customer{customerId=1} their order of 3:	FOOD3	Hamburger	 Price: £5.0	 Description='This is a Hamburger'
-28-Mar-2021 14:58:35 - Charlotte Served Customer{customerId=1} their order of 3:	FOOD3	Hamburger	 Price: £5.0	 Description='This is a Hamburger'
-28-Mar-2021 14:58:37 - Choose 5 in MainMenu
-28-Mar-2021 14:58:50 - Jacob Served Customer{customerId=4} their order of 19:	BEVARAGE19	Hazelnut Mocha	 Price: £6.0	 Description='This is a Hazelnut Mocha'
-28-Mar-2021 14:58:50 - Jacob Served Customer{customerId=4} their order of 19:	BEVARAGE19	Hazelnut Mocha	 Price: £6.0	 Description='This is a Hazelnut Mocha'
-28-Mar-2021 14:58:50 - Jacob Served Customer{customerId=4} their order of 19:	BEVARAGE19	Hazelnut Mocha	 Price: £6.0	 Description='This is a Hazelnut Mocha'
+30-Jun-2021 01:33:53 - File path:C:\Users\Areeb\IdeaProjects\CoffeeShopMVC\resources\menuitems.csv
+30-Jun-2021 01:33:53 - File path:C:\Users\Areeb\IdeaProjects\CoffeeShopMVC\resources\menuitems.csv
+30-Jun-2021 01:33:53 - File path:C:\Users\Areeb\IdeaProjects\CoffeeShopMVC\resources\menuitems.csv
+30-Jun-2021 01:33:53 - Read line:3,Hamburger,This is a Hamburger,5,food
+30-Jun-2021 01:33:53 - Read line:3,Hamburger,This is a Hamburger,5,food
+30-Jun-2021 01:33:53 - Read line:12,Burritos,This is a Burritos,4,food
+30-Jun-2021 01:33:53 - Read line:17,Coffee Jelly,This is a Coffee Jelly,5,other
+30-Jun-2021 01:33:53 - Read line:25,Jasmine Tea,This is a Jasmine Tea,10,bevarage
+30-Jun-2021 01:33:53 - Read line:28,Honey Lemon,This is a Honey Lemon,5,bevarage
+30-Jun-2021 01:33:53 - Read line:31,Macchiato,This is a Macchiato,8,other
+30-Jun-2021 01:33:53 - Read line:31,Macchiato,This is a Macchiato,8,other
+30-Jun-2021 01:33:53 - Read line:31,Macchiato,This is a Macchiato,8,other
+30-Jun-2021 01:33:53 - Read line:31,Macchiato,This is a Macchiato,8,other
+30-Jun-2021 01:33:53 - Read line:31,Macchiato,This is a Macchiato,8,other
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Invoked: readOrders in com.company.shared.DataReader
+30-Jun-2021 01:33:53 - Invoked: ReadFileAsLines in com.company.shared.DataReader
+30-Jun-2021 01:33:53 - File path:C:\Users\Areeb\IdeaProjects\CoffeeShopMVC\resources\orders.csv
+30-Jun-2021 01:33:53 - Read line:27-Mar-2021 23:37:01,1,FOOD3,FALSE
+30-Jun-2021 01:33:53 - Read line:27-Mar-2021 23:38:02,2,BEVARAGE10,FALSE
+30-Jun-2021 01:33:53 - Read line:27-Mar-2021 23:39:03,3,FOOD12,FALSE
+30-Jun-2021 01:33:53 - Read line:27-Mar-2021 23:40:04,4,FOOD2,FALSE
+30-Jun-2021 01:33:53 - Read line:27-Mar-2021 23:40:05,4,BEVARAGE19,FALSE
+30-Jun-2021 01:33:53 - Read line:27-Mar-2021 23:40:06,4,BEVARAGE24,FALSE
+30-Jun-2021 01:33:53 - Read line:27-Mar-2021 23:42:08,5,FOOD14,FALSE
+30-Jun-2021 01:33:53 - Read line:27-Mar-2021 23:43:09,6,FOOD1,FALSE
+30-Jun-2021 01:33:53 - Read line:27-Mar-2021 23:43:09,6,FOOD1,FALSE
+30-Jun-2021 01:33:53 - Read line:27-Mar-2021 23:44:10,7,OTHER18,FALSE
+30-Jun-2021 01:33:53 - Read line:27-Mar-2021 23:46:12,9,BEVARAGE30,FALSE
+30-Jun-2021 01:33:53 - Read line:27-Mar-2021 23:46:12,9,BEVARAGE30,FALSE
+30-Jun-2021 01:33:53 - Read line:27-Mar-2021 23:46:14,9,FOOD13,FALSE
+30-Jun-2021 01:33:53 - Read line:27-Mar-2021 23:46:15,9,OTHER17,FALSE
+30-Jun-2021 01:33:53 - Read line:27-Mar-2021 23:46:15,9,OTHER17,FALSE
+30-Jun-2021 01:33:53 - Read line:27-Mar-2021 23:46:16,9,FOOD15,FALSE
+30-Jun-2021 01:33:53 - Invoked:  mapMenuItems in class com.company.shared.ObjectMapper
+30-Jun-2021 01:33:53 - Added new Customer:1
+30-Jun-2021 01:33:53 - Added new Customer:2
+30-Jun-2021 01:33:53 - Added new Customer:3
+30-Jun-2021 01:33:53 - Added new Customer:4
+30-Jun-2021 01:33:53 - Added new Customer:5
+30-Jun-2021 01:33:53 - Added new Customer:6
+30-Jun-2021 01:33:53 - Added new Customer:7
+30-Jun-2021 01:33:53 - Added new Customer:9
+30-Jun-2021 01:33:53 - Added new Customer:9
+30-Jun-2021 01:33:53 - Generating Servers
+30-Jun-2021 01:33:53 - Started Servering
+30-Jun-2021 01:33:53 - Charlotte Started Serving
+30-Jun-2021 01:33:53 - Printed Main Menu
+30-Jun-2021 01:33:53 - Jacob Started Serving
+30-Jun-2021 01:33:53 - Megan Started Serving
+30-Jun-2021 01:33:53 - Megan Served Customer{customerId=3} their order of 12:	FOOD12	Burritos	 Price: £4.0	 Description='This is a Burritos'
+30-Jun-2021 01:33:53 - Megan Served Customer{customerId=3} their order of 12:	FOOD12	Burritos	 Price: £4.0	 Description='This is a Burritos'
+30-Jun-2021 01:33:53 - Megan Served Customer{customerId=3} their order of 12:	FOOD12	Burritos	 Price: £4.0	 Description='This is a Burritos'
+30-Jun-2021 01:33:59 - Chose 4 in MainMenu
+30-Jun-2021 01:34:08 - Charlotte Served Customer{customerId=4} their order of 2:	FOOD2	Margherita	 Price: £5.0	 Description='This is a Margherita'
+30-Jun-2021 01:34:08 - Charlotte Served Customer{customerId=4} their order of 2:	FOOD2	Margherita	 Price: £5.0	 Description='This is a Margherita'
+30-Jun-2021 01:34:08 - Charlotte Served Customer{customerId=4} their order of 2:	FOOD2	Margherita	 Price: £5.0	 Description='This is a Margherita'
+30-Jun-2021 01:34:12 - Printed Main Menu
+30-Jun-2021 01:34:17 - Chose 2 in MainMenu
+30-Jun-2021 01:34:23 - Charlotte Served Customer{customerId=4} their order of 19:	BEVARAGE19	Hazelnut Mocha	 Price: £6.0	 Description='This is a Hazelnut Mocha'
+30-Jun-2021 01:34:23 - Charlotte Served Customer{customerId=4} their order of 19:	BEVARAGE19	Hazelnut Mocha	 Price: £6.0	 Description='This is a Hazelnut Mocha'
+30-Jun-2021 01:34:23 - Charlotte Served Customer{customerId=4} their order of 19:	BEVARAGE19	Hazelnut Mocha	 Price: £6.0	 Description='This is a Hazelnut Mocha'
+30-Jun-2021 01:34:36 - Printed Main Menu
+30-Jun-2021 01:34:38 - Charlotte Served Customer{customerId=6} their order of 1:	FOOD1	Salami	 Price: £2.0	 Description='This is a salami'
+30-Jun-2021 01:34:38 - Charlotte Served Customer{customerId=6} their order of 1:	FOOD1	Salami	 Price: £2.0	 Description='This is a salami'
+30-Jun-2021 01:34:38 - Charlotte Served Customer{customerId=6} their order of 1:	FOOD1	Salami	 Price: £2.0	 Description='This is a salami'
+30-Jun-2021 01:34:53 - Charlotte Served Customer{customerId=7} their order of 18:	OTHER18	Cookies & Cream	 Price: £5.0	 Description='This is a Cookies & Cream'
+30-Jun-2021 01:34:53 - Charlotte Served Customer{customerId=7} their order of 18:	OTHER18	Cookies & Cream	 Price: £5.0	 Description='This is a Cookies & Cream'
+30-Jun-2021 01:34:53 - Charlotte Served Customer{customerId=7} their order of 18:	OTHER18	Cookies & Cream	 Price: £5.0	 Description='This is a Cookies & Cream'
+30-Jun-2021 01:35:08 - Jacob Served Customer{customerId=9} their order of 30:	BEVARAGE30	Latte	 Price: £7.0	 Description='This is a Latte'
+30-Jun-2021 01:35:08 - Jacob Served Customer{customerId=9} their order of 30:	BEVARAGE30	Latte	 Price: £7.0	 Description='This is a Latte'
+30-Jun-2021 01:35:08 - Jacob Served Customer{customerId=9} their order of 30:	BEVARAGE30	Latte	 Price: £7.0	 Description='This is a Latte'
+30-Jun-2021 01:35:22 - Chose 4 in MainMenu
+30-Jun-2021 01:35:23 - Jacob Served Customer{customerId=9} their order of 13:	FOOD13	Pitta	 Price: £5.0	 Description='This is a Pitta'
+30-Jun-2021 01:35:23 - Jacob Served Customer{customerId=9} their order of 13:	FOOD13	Pitta	 Price: £5.0	 Description='This is a Pitta'
+30-Jun-2021 01:35:23 - Jacob Served Customer{customerId=9} their order of 13:	FOOD13	Pitta	 Price: £5.0	 Description='This is a Pitta'
+30-Jun-2021 01:35:30 - Printed Main Menu
+30-Jun-2021 01:35:32 - Chose 4 in MainMenu
+30-Jun-2021 01:35:36 - Printed Main Menu
+30-Jun-2021 01:35:38 - Charlotte Served Customer{customerId=10} their order of 4:	FOOD4	CheeseBurger	 Price: £6.0	 Description='This is a  CheeseBurger'
+30-Jun-2021 01:35:38 - Charlotte Served Customer{customerId=10} their order of 4:	FOOD4	CheeseBurger	 Price: £6.0	 Description='This is a  CheeseBurger'
+30-Jun-2021 01:35:38 - Jacob Couldn't find any orders
+30-Jun-2021 01:35:38 - Jacob Finished Serving
+30-Jun-2021 01:35:39 - Chose 4 in MainMenu
+30-Jun-2021 01:35:53 - Charlotte Served Customer{customerId=11} their order of 6:	FOOD6	Double Burger	 Price: £6.0	 Description='This is a Double Burger'
+30-Jun-2021 01:35:53 - Charlotte Served Customer{customerId=11} their order of 6:	FOOD6	Double Burger	 Price: £6.0	 Description='This is a Double Burger'
+30-Jun-2021 01:35:55 - Printed Main Menu
+30-Jun-2021 01:35:55 - Printed Main Menu
+30-Jun-2021 01:36:08 - Charlotte Finished Serving
+30-Jun-2021 01:36:08 - Charlotte Finished Serving
+30-Jun-2021 01:36:08 - Charlotte Finished Serving
+30-Jun-2021 01:36:08 - Megan Finished Serving

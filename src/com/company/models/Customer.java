@@ -28,14 +28,14 @@ public class Customer {
     }
 
     public Customer(){
-        this.customerId = customerCounter++;
+        customerCounter++;
+        this.customerId = customerCounter;
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Customer)) return false;
-        Customer customer = (Customer) o;
+        if (!(o instanceof Customer customer)) return false;
         return getCustomerId() == customer.getCustomerId();
     }
 

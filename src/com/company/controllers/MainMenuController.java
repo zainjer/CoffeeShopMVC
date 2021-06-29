@@ -38,7 +38,7 @@ public class MainMenuController {
 
     private static void performOperations(String input) throws IOException {
 
-        int optionNumber = -1;
+        int optionNumber;
         try{
             optionNumber = Integer.parseInt(input);
         }catch (NumberFormatException e)
@@ -54,7 +54,7 @@ public class MainMenuController {
                 Log.add("Chose 0 in MainMenu");
                 System.out.println("\n********** Thank you for using Digital Coffee Shop! **********\n");
                 //Todo -- Add Summary part here!
-                new Exception().printStackTrace();
+                //new Exception().printStackTrace();
                 System.exit(0);
             }
             case 1 -> {
@@ -77,7 +77,7 @@ public class MainMenuController {
             }
             case 4 -> {
                 Log.add("Chose 4 in MainMenu");
-                System.out.println("-- Order features is currently under development");
+                OrdersController.takeOrder();
                 continueMessage();
                 in.nextLine();
             }
